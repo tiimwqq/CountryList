@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setRegion } from "../model/regionFilterSlice";
 import { RootState } from "../../../app/store";
 import { useTranslation } from "react-i18next";
-import styled from "./RegionFilter.module.scss";
+import styled from "./RegionFIlter.module.scss";
 import React from "react";
 
 const regions = ["All", "Africa", "Americas", "Asia", "Europe", "Oceania"];
