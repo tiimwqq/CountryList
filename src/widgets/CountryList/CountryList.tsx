@@ -43,7 +43,7 @@ export const CountryList: React.FC = () => {
                 return (
                     <CountryItem
                         key={country.cca3}
-                        code={country.cca3}
+                        code={ country.cca3 ?? ''}
                         flagImage={country.flags.svg}
                         title={countryName} // Передаём локализованное название
                     />
