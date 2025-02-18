@@ -1,0 +1,53 @@
+.details {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .flag {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .borders {
+    margin-top: 20px;
+  }
+  
+  .borderList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .borderButton {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  .backButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #222;
+    }
+  }

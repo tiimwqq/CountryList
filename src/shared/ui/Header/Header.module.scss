@@ -1,0 +1,16 @@
+.header{
+    border-bottom: 1px solid #525252;
+    margin-bottom: 30px;
+
+    &__logo {
+        margin-right: 50px;
+    }
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+

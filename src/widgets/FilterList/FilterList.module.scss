@@ -1,0 +1,13 @@
+.filterList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    &__rightSide {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
